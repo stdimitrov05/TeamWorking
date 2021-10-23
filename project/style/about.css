@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.background {
+  background-image: url('../images/pexels-andrea-piacquadio-3769120.jpg');
+  background-size: cover;
+  overflow: hidden;
+  font-family: 'Lobster', sans-serif;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Stanislav */
+.card {
+  background-color: rgba(5, 5, 5, 0.698);
+  border-radius: 15%;
+  margin-top: 32%;
+  margin-right: 45%;
+  left: -15%;
+  size: 50%;
+  width: 850px;
+  height: 300px;
+  position: relative;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+/* Simeon */
+
+/* Stanislav */
+.card .left_container {
+  width: 80%;
+  height: 150%;
+  background-color: rgba(255, 255, 255, 0);
+  flex-direction: column;
+  border-radius: 10px;
+}
+/* Stanislav */
+.card .left_container img {
+  margin-left: 50%;
+  width: 150px;
+  border-radius: 50%;
+}
+/* Simeon */
+
+/* Stanislav */
+.card .right_container {
+  width: 50%;
+  height: 70%;
+  background-color: rgba(255, 255, 255, 0);
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 10px;
+}
+
+.card .right_container p {
+  margin-left: 16px;
+  font-size: 1.1rem;
+  text-shadow: 2px 5px 6px black;
+  color: rgb(255, 255, 255);
+}
+
+.card .right_container.user_name {
+  font-weight: 700;
+}
+.btn {
+  position: absolute;
+  margin-top: 34%;
+  right: 58.5%;
+  transform: translate(-50%, -50%);
+  width: 45px;
+  height: 45px;
+  z-index: 10;
+  appearance: none;
+  background-image: url('../images/tenor.gif');
+  background-size: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.281);
+}
+.btn::after {
+  content: fa-info-circle;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  font-family: FontAwesome;
+  font-weight: 700;
+  transform: translate(-50%, -50%) rotate(-90deg);
+}
+.btn:checked::before {
+  transform: translate(-50%, -50%) rotate(0deg);
+}
+.slide {
+  position: absolute;
+  right: 0%;
+  background: rgba(255, 255, 255, 0.856);
+  width: 50%;
+  height: 85%;
+
+  align-items: flex-start;
+  flex-direction: column;
+  transform: translate(100%);
+  border: 5px solid rgba(0, 0, 0, 0.116);
+  border-radius: 10px;
+  transition: all 0.6s;
+}
+.btn:checked ~ .slide {
+  transform: translate(0%);
+}
+.slide p {
+  font-weight: 700;
+  margin-left: 15px;
+  font-size: 1.5rem;
+}
+.slide .items_interes {
+  display: flex;
+  margin-left: 15px;
+  flex-wrap: wrap;
+}
+.slide .items_interes div {
+  font-size: 1.4rem;
+  margin: 10px 15px 0 0;
+}
