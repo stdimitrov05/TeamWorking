@@ -19,31 +19,32 @@
 }
 
 .active {
-  background-color: #535353;
+  background-color: #000000;
 }
 
 /* clock */
 .clock {
-  height: 200px;
+  height: 15%;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 900px;
+  top: 95%;
+  left: 80%;
+  width:55%;
   margin-left: -450px;
-  margin-top: -100px;
+  margin-top: -150px;
   text-align: center;
 }
 
 .digit {
   width: 120px;
-  height: 200px;
+  height: 100%;
   margin: 0 5px;
   position: relative;
   display: inline-block;
 }
 
 .digit .segment {
-  background: #c00;
+  
+  background: rgb(12, 12, 12);
   border-radius: 5px;
   position: absolute;
   opacity: 0.15;
@@ -56,8 +57,9 @@
 
 .digit .segment.on,
 .separator {
+  
   opacity: 1;
-  box-shadow: 0 0 50px rgba(255, 0, 0, 0.7);
+  box-shadow: 0 0 50px rgba(255, 255, 255, 0.7);
   transition: opacity 0s;
   -webkit-transition: opacity 0s;
   -ms-transition: opacity 0s;
@@ -66,9 +68,10 @@
 }
 
 .separator {
+  
   width: 20px;
   height: 20px;
-  background: #c00;
+  background: rgb(255, 255, 255);
   border-radius: 50%;
   display: inline-block;
   position: relative;
