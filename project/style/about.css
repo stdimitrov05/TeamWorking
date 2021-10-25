@@ -10,7 +10,7 @@
   justify-content: center;
   align-items: center;
 }
-/* Stanislav */
+
 .card {
 
   border-radius: 15%;
@@ -25,9 +25,7 @@
   overflow: hidden;
 }
 
-/* Simeon */
 
-/* Stanislav */
 .card .left_container {
   width: 80%;
   height: 150%;
@@ -41,9 +39,7 @@
   width: 150px;
   border-radius: 50%;
 }
-/* Simeon */
 
-/* Stanislav */
 .card .right_container {
   width: 50%;
   height: 70%;
@@ -120,4 +116,11 @@
 .slide .items_interes div {
   font-size: 1.4rem;
   margin: 10px 15px 0 0;
+}
+.developer{
+  font-family: 'Lobster', sans-serif;
+  background-color: rgba(0, 255, 255, 0);
+  border-radius: 50%;
+  
+  margin-left: 95%;
 }
