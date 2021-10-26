@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 .topnav {
   overflow: hidden;
   background-color: #0c0c0c00;
+  font-family: 'Lobster', sans-serif;
 }
 
 .topnav a {
