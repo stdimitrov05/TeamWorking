@@ -10,7 +10,7 @@
   size: 50%;
   width: 845px;
   height: 300px;
-  position: absolute;
+  position:fixed;
   justify-content: space-between;
   overflow: hidden;
 }

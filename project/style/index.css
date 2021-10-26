@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+  overflow: hidden;
+}
 body {
   margin: 0;
   padding: 0;
@@ -91,23 +94,24 @@ section {
 }
 .welcome {
   position: absolute;
-  top: 5%;
-  width: 100%;
+  top: 1%;
+  min-width: 100%;
+  min-height: auto;
   font-family: 'Lobster', sans-serif;
   font-size: 4em;
   text-align: center;
   transform: translate;
   color: #fff;
-  transform: translateY (-50%);
+ 
 }
 .text {
-  text-align: center;
   position: absolute;
-  top: 18%;
-  width: 100%;
+  top: 20%;
+  min-width: 100%;
+  min-height: auto;
+  text-align: center;
   font-family: 'Lobster', sans-serif;
   font-size: 2em;
-  text-align: center;
   transform: translate;
   color: #fff;
   transform: translateY (-50%);
@@ -115,14 +119,14 @@ section {
 .text-Site {
   text-align: center;
   position: absolute;
-  top: 28%;
-  width: 25%;
-  left: 38%;
+  top: 38%;
+  
+  min-width: 35%;
+  min-height: auto;
   font-family: 'Lobster', sans-serif;
   font-size: 2rem;
   text-align: center;
   text-shadow: 5px 5px 15px rgb(141, 143, 141);
-  transform: translate;
   color: #fff;
-  transform: translateY (-50%);
+ 
 }

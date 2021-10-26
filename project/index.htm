@@ -4,29 +4,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="./style/index.css">
     <link rel="stylesheet" href="./style/navigator.css" />
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <title>Home</title>
   </head>
   <body >
-    <div class="icon-bar">
-      <a class="active" href="./index.htm"><i class="fa fa-home"></i></a>
-      <a href="./about.htm"><i class="fa fa-envelope"></i></a>
-      <a href="./contact.htm"><i class="fa fa-globe"></i></a>
+    
+     
+  
+    <div class="topnav" id="myTopnav">
+      <a class="active" href="./index.htm"><i class="fa fa-home">.Home </i></a>
+      <a href="./about.htm"><i class="fa fa-envelope"></i>.About</a>
+      <a href="./contact.htm"><i class="fa fa-globe"></i>.Contact </a>
+      <a href="javascript:void(0);" class="icon" onclick="navigatorButton()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
     
     <section>
       <p class="welcome">
         Добре Дошли !
        </p>
+       <br>
+       <br>
        <p class="text">
          Целта на сайта е да покажем какво сме научили до сега. 
        </p>
+      
        <p class="text-Site">В сайта се съдържа 4 страници  :
         index.html е началта страница ,която сега е виждате
         about.html в нея има информация за екипа
@@ -69,4 +76,5 @@
        </div>
        </section>
   </body>
+  <script src="./js/developerShow.js"></script>
 </html>
