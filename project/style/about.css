@@ -129,7 +129,7 @@ html, body {
 .text {
   position: absolute;
   top: 20%;
-  min-width: 100%;
+  min-width: 25%;
   min-height: auto;
   text-align: center;
   font-family: 'Lobster', sans-serif;
@@ -139,6 +139,7 @@ html, body {
   transform: translateY (-50%);
 }
 .image{
+  margin-top: 5%;
   width: 15%;
   border-radius: 50% ;
 }
