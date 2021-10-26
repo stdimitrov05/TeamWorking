@@ -135,6 +135,10 @@ html, body {
   font-family: 'Lobster', sans-serif;
   font-size: 2em;
   transform: translate;
-  color: #fff;
+  color: rgb(7, 36, 200);
   transform: translateY (-50%);
+}
+.image{
+  width: 15%;
+  border-radius: 50% ;
 }
