@@ -14,7 +14,7 @@ function developerShow() {
       this.style.backgroundColor = rgba(11, 250, 31, 0.801)
     })
   })
-  //_this.style.backgroundColor = "rgba(11, 250, 31, 0.801)"
+  
 }
 
 function navigatorButton() {
