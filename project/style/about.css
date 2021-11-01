@@ -1,5 +1,7 @@
 html,
 body {
+  background-image: url('../images/pexels-negative-space-160107.jpg');
+  background-size: cover;
   margin: 0;
   padding: 0;
   min-width: 100%;
@@ -258,43 +260,9 @@ body {
   }
 }
 .slide:nth-of-type(1) div {
-  background: #223d65;
-  color: white;
-  text-align: center;
-  padding-top: 200px;
-  font-size: 16pt;
-  font-family: 'Andale Mono', AndaleMono, monospace;
-}
-.slide:nth-of-type(2) div {
-  background: url('https://th.bing.com/th/id/R.04e7a746df6e8ad91a77558af0ebecc2?rik=vHwWRGtY0FyPdA&riu=http%3a%2f%2fcdn.wallpapersafari.com%2f32%2f50%2fNGIlEC.jpg&ehk=%2bC%2bW0mArONwGfG8%2f%2fRZvES2BK9%2bGwHEg1ObIE97ewaI%3d&risl=&pid=ImgRaw&r=0')
-    center center;
-  background-size: cover;
-  border-radius: 25%;
-}
-.slide:nth-of-type(3) div {
-  background: rgba(20, 20, 20, 0.842);
-  color: white;
-  text-align: center;
-  padding-top: 200px;
-  font-size: 16pt;
-  font-family: Book Antiqua;
-}
-.slide:nth-of-type(4) div {
-  background: url('https://wallpapercave.com/wp/wp3182792.png') center center;
-  background-size: cover;
-  border-radius: 50%;
- 
-}
-.slide:nth-of-type(5) div {
-  background: url('https://xmath.pl/images/pic01.jpg')
-    center center;
-  background-size: cover;
-  
-}
-.text {
   position: absolute;
-  top: 20%;
-  min-width: 25%;
+
+  min-width: 5%;
   min-height: auto;
   text-align: center;
   font-family: 'Lobster', sans-serif;
@@ -303,8 +271,47 @@ body {
   color: rgb(7, 36, 200);
   transform: translateY (-50%);
 }
+.slide:nth-of-type(2) div {
+  background: url('../images/R.jfif') center center;
+
+  background-size: cover;
+  border-radius: 25%;
+}
+.slide:nth-of-type(3) div {
+  background: url('../images/R.gif') center center;
+  background-size: cover;
+  border-radius: 25%;
+  position: absolute;
+  min-width: 5%;
+  min-height: auto;
+  text-align: center;
+  font-family: 'Lobster', sans-serif;
+  font-size: 2em;
+  transform: translate;
+  color: rgb(255, 255, 255);
+  transform: translateY (-50%);
+}
+.slide:nth-of-type(4) div {
+  background: url('../images/gif-backgrounds-7.gif') center center;
+  background-size: cover;
+  border-radius: 25%;
+}
+
+.text {
+  position: absolute;
+  padding: auto;
+  min-width: 5%;
+  min-height: auto;
+  text-align: center;
+  font-family: 'Lobster', sans-serif;
+  font-size: 2em;
+  transform: translate;
+  color: rgb(255, 255, 255);
+  transform: translateY (-50%);
+}
 .image {
-  margin-top: 5%;
-  width: 15%;
-  border-radius: 50%;
+  margin-left: 1%;
+  margin-top: -4%;
+  width: 17%;
+  border-radius: 55%;
 }
